@@ -1,0 +1,131 @@
+:root{
+  --maincolor:#16b978;
+  --secondcolor:#081b54;
+}
+
+.todo-list {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 5px solid #3e8e41;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(7, 76, 3);
+  }
+  
+  .todo-list h1 {
+    font-family: 'Times New Roman', serif;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  .todo-list form {
+    margin-bottom: 20px;
+  }
+  
+  .todo-list input[type="text"] {
+    font-family: 'Times New Roman', serif;
+    width: 90%;
+    padding: 10px;
+    margin-bottom:10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    
+  }
+  
+  .todo-list button[type="submit"] {
+    border: 2px solid var(--maincolor);
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+  
+  .todo-list button[type="submit"]:hover {
+    color: #fff;
+    background: var(--maincolor);
+  }
+  
+  .filters {
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    margin-right: 30px;
+  }
+  
+  .filters input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Times New Roman', serif;
+    border: 1px solid #ccc;
+  }
+  
+  .filters select {
+    padding: 9px;
+    font-size: 16px;
+    margin-left:10px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .todo-list span {
+    font-size: 15px;
+  }
+  
+  .todo-list button[type="Remove"] {
+    border: 2px solid var(--maincolor);
+    color: #000;
+    padding: 10px 15px;
+    margin-left: 20em;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .todo-list button[type="Remove"]:hover {
+    color: #fff;
+    background: var(--maincolor);
+  } 
+
+  .clear{
+    padding: 20px;
+  }
+
+  .todo-list button[type="Clear"] {
+    border: 2px solid var(--maincolor);
+    color: #000;
+    padding: 12px;
+    margin-left:15vh;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .todo-list button[type="Clear"]:hover {
+    color: #fff;
+    background: var(--maincolor);
+  } 
